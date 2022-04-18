@@ -5,6 +5,6 @@
   <h2 class="my-5 text-2xl font-medium">by. {{ $post["author"] }}</h2>
     <p class="mb-12 font-light text-justify">{{ $post["body"] }}</p>
     <div class="flex justify-end w-full">
-      <a href="/blog" class="text-xl font-semibold underline">Back</a>
+      <a href="/posts" class="text-xl font-semibold underline">Back</a>
     </div>
 @endsection
